@@ -118,9 +118,9 @@ nav
     }
     #text-box h1
     {
-        font-size:30px;
+        font-size:40px;
         font-style:bold;
-        margin-right:40px;
+        margin-left:2px;
     }
     .header
     {
@@ -132,7 +132,7 @@ nav
         font-size: 15px;
         color: yellow;
         font-weight:400;
-        margin-left:180px;
+        margin-left:200px;
     
         
     }
@@ -193,12 +193,12 @@ h3
 {  
     #course h1
     {
-        margin-right:50px;
+        margin-right:10px;
     }
     .row
     {
         flex-direction: column;
-        margin-left:0.5px;
+        margin-left:20px;
         width:85%;
     }
 }
@@ -251,7 +251,7 @@ h3
         width:50%;
         background:yellow;
         margin-top:530px;
-        margin-left:21px;
+        margin-left:45px;
     }
     .sections
    {   
@@ -323,21 +323,6 @@ h3
         color:black;
     }
 }
-.footer
-{
-    width:100%;
-    text-align:center;
-    padding:30px 0;
-}
-.footer h4
-{
-    margin-bottom:25px;
-    margin-top:20px;
-    font-weight:600;
-}
-
-
-
 #contact
 {
     background:yellow;
@@ -363,10 +348,10 @@ input:focus,
 textarea:focus {
     outline: none;
 }
-.map {
+/* .map {
     margin: 10px;
     height: 400px;
-}
+} */
 
 .msg {
     border-radius: 5px;
@@ -390,6 +375,26 @@ textarea:focus {
 .form {
     padding: 10px 0px 10px 0px;
 }
+@media(max-width:700px)
+{
+    #contact
+    {
+        margin-top:600px;
+    }
+    .contact-column
+    {
+     width:50%;
+     height: 420px;
+     }
+     .contact-form {
+        padding-left: 0.5px;
+        margin:4px;
+    }
+    .form-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
 
 
 .send-btn {
@@ -412,18 +417,32 @@ textarea:focus {
 .send-btn:active {
     opacity: 0.6;
 }
+.footer
+{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+    
+}
+.footer h4
+{
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight:600;
+  
+}
 
 .footer-column {
     float: left;
-    width: 27%;
-    margin: 1%;
-    padding: 2%;
+    width: 30%;
+    padding: 1%;
+    
 }
 
 .footer-detail {
     font-size: 23px;
     text-transform: uppercase;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     color:blue;
 }
 
