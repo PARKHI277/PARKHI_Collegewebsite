@@ -115,10 +115,41 @@ nav
     background:blue;
     transition:1s;
 }
-nav .fa
+@media(max-width:700px)
 {
-    display:none;
+    #text-box
+    {
+        width:200%;
+    }
+    #text-box h1
+    {
+        font-size:30px;
+        font-style:bold;
+        margin-right:40px;
+    }
+    .header
+    {
+        width:200%;
+        min-height:100vh;
+    }
+    #text-box p{
+        width:40%;
+        font-size: 15px;
+        color: yellow;
+        font-weight:400;
+        margin-left:180px;
+    
+        
+    }
+    .hero-btn 
+    {
+        margin-right:40px;
+    }
+
 }
+
+
+
 
 #course
 {
@@ -166,6 +197,31 @@ h3
 {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+
+@media(max-width: 700px)
+{  
+    #course h1
+    {
+        margin-right:50px;
+    }
+    .row
+    {
+        flex-direction: column;
+        margin-left:0.5px;
+        
+        width:85%;
+        
+    }
+}
+
+#campus
+{
+    width:70%;
+    padding: 50px 50px;
+    background:yellow;
+    margin-top:200px;
+    margin-left:120px;
+}
 .college 
 {
     display:none;
@@ -203,6 +259,20 @@ h3
 }
 .demo:hover {
     opacity: 1;
+}
+@media(max-width:700px)
+{   
+    #campus
+    {
+        width:65%;
+        padding: 50px 50px;
+        background:yellow;
+        margin-top:400px;
+        margin-left:60px;
+
+    }
+    
+    
 }
 #review {
     width: 100%;
@@ -259,14 +329,7 @@ h3
    
 }
 
-#campus
-{
-    width:70%;
-    padding: 50px 50px;
-    background:#a78a1e94;
-    margin-top:200px;
-    margin-left:120px;
-}
+
 #contact
 {
     background:yellow;
