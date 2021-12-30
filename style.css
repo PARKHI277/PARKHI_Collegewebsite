@@ -344,14 +344,8 @@ h3
     font-size: 40px;
     font-weight: bold;
 }
-input:focus,
-textarea:focus {
-    outline: none;
-}
-/* .map {
-    margin: 10px;
-    height: 400px;
-} */
+
+
 
 .msg {
     border-radius: 5px;
@@ -414,9 +408,7 @@ textarea:focus {
     opacity: 0.8;
 }
 
-.send-btn:active {
-    opacity: 0.6;
-}
+
 .footer
 {
     width:100%;
