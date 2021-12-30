@@ -12,7 +12,7 @@
 }
 .header
 {
-    min-height: 100vh;
+    height: 100vh;
     width:100%;
     background-image: linear-gradient(rgba(122, 47, 47, 0.39),rgba(4,9,30,0.7)),url(images/3.jpeg);
 }
